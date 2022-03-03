@@ -19,7 +19,7 @@ public class ZuulGatewayApplication {
 	
 	@GetMapping("/")
 	public String hello() {
-		return "Hello Zuul Gateway";
+		return "Hello  Pradeep Zuul Gateway";
 	}
 
 }
