@@ -1,0 +1,14 @@
+server:
+  port: 8765
+spring:
+  application:
+    name: zuul-gateway
+eureka:
+  instance:
+    hostname: localhost
+
+zuul:
+  routes:
+    users:
+      path: /myusers/**
+      serviceId: http://localhost:9001/
